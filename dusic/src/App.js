@@ -1,5 +1,5 @@
 import './App.css';
-import NowPlaying from './nowPlaying.jsx';  
+import NowPlaying from './nowPlaying.js';  
 
 function App() {
   return (
