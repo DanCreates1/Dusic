@@ -6,7 +6,10 @@ export default function NowPlaying() {
     useEffect(() => {
         fetch('/api/token')
         .then(res => res.json())
-        .then(data => setSong(data));
+        .then(data => {
+  console.log("Fetched song data:", data);
+  setSong(data);
+});
     }, []);
 
 
